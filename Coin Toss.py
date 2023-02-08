@@ -1,9 +1,13 @@
 import CoinClass as c
 
+#this import is the name of the file, not the name of the class
+#it doesn't recognize the .py, etc., so don't add it
+
 
 # The main function.
 def main():
        # Create an object from the Coin class.
+       #this is important--how we create an instance
        my_coin = c.Coin()   # this creates an instance called 'my_coin' of the class 'Coin()'
 
        # Display the side of the coin that is facing up.
