@@ -2,11 +2,17 @@ import insectclass as i
 
 
 def main():
-    my_insect = i.Insect()
+    mosquito = i.Insect("mosquito", 2, 4)
+    housefly = i.Insect("housefly", 2, 4)
+    my_insect = i.Insect("my insect", 2, 4)
 
-    my_insect.create_flight_len()
+    mosquito.flight_len()
+    housefly.flight_len()
+    my_insect.flight_len()
 
-    print(f"My insect can fly {my_insect.get_flight_len()} miles")
+    print(f"The {mosquito.get_name()} can fly up to {mosquito.get_miles()} miles")
+    print(f"The {housefly.get_name()} can fly up to {housefly.get_miles()} miles")
+    print(f"{my_insect.get_name()} can fly up to {my_insect.get_miles()} miles")
 
 
 main()
