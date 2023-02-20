@@ -4,4 +4,5 @@
 #also doesn't matter if we have a virtual environment
 
 /in-class practice
-/__pycache__
+/_pycache_
+/.vscode
