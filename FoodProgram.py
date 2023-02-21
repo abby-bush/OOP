@@ -16,23 +16,22 @@ dict = {
 order_total = 0
 member_discount = 0.2
 
-"""
+
 # CUSTOMERS
 # Customer 1
 customerid = 570
 name = "Danni Sellyar"
 address = "87 Mitchell Way Hewitt Texas 76712"
-phone = "254-555-9362"
 email = "dsellyarft@gmpg.org"
+phone = "254-555-9362"
 member_status = False
-"""
 
 # Customer 2
 customerid = 569
 name = "Aubree Himsworth"
 address = "1172 Moulton Hill Waco Texas 76710"
-phone = "254-555-2273"
 email = "ahimsworthfs@list-manage.com"
+phone = "254-555-2273"
 member_status = True
 
 
